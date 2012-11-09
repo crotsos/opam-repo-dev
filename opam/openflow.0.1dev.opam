@@ -7,5 +7,5 @@ package "openflow" {
     [ "make" "all" ]
     [ "make" "install" ]
   ]
-  depends: [ "oasis" ]
+  depends: [ "oasis" "mirage" "mirage-net" "rpc"]
 }
