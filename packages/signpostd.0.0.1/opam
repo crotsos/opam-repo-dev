@@ -1,0 +1,10 @@
+opam-version: "1"
+maintainer: "cr409@cl.cam.ac.uk"
+build: [
+  ["make" "all"]
+  ["make" "install" "PREFIX=%{prefix}%"]
+]
+remove: [
+  ["ocamlfind" "remove" "signpostd"]
+]
+depends: ["cstruct" "ocamlfind" "oasis" "dns" "crypto_keys" "openflow" "rpc" "bitstring"]
