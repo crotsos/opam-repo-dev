@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "openflow"]
 ]
-depends: ["mirage-net" "ocamlfind"]
+depends: ["mirage-net" "ocamlfind" "re" "rpc" "ocamlgraph"]
