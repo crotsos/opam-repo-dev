@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "sdnsim"]
 ]
-depends: ["mirage-net" "ocamlfind", "xml-light"]
+depends: ["mirage-net" "ocamlfind" "xml-light"]
